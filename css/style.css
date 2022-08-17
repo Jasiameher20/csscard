@@ -1,0 +1,364 @@
+
+.card{
+    text-align: center;
+    color: aliceblue;
+    /*border:5px solid blue ;*/
+    /* width 2
+       solid
+       color
+       */
+       display: inline-block;
+    border-radius: 25px;
+       background-color: rgba(0, 0, 0, 0.268);
+       background-image: url(../image/download\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-blend-mode: multiply;
+    width: 400px;
+    height: auto;
+    padding: 40px 25px ;/*top bottom right left */
+    /* top right bottom left */
+    margin: 50px 30px;
+    /* display:block; width:100%< */
+}
+.card h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: black;
+}
+.card p{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: justify;
+   color: black;
+
+}
+.card a{
+    color: white;
+    text-decoration: none;
+    background-color: brown;
+    padding: 20px 15px;
+    display: inline-block;
+    border-radius: 15px;
+    transition: 300ms;
+}
+.card a:hover
+{
+    background-color: blueviolet;
+    padding: 15px 50px;
+    color: black;
+    border-radius: 25px ;
+}
+.card2 h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+    color:azure;
+}
+.card2 p{
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card2{
+    margin: 50px 0 0 auto;
+}
+.card2 a{
+    color: rgb(77, 18, 224);
+    text-decoration: none;
+    background-color:peachpuff;
+    padding: 20px 15px;
+    display: inline-block;
+    border-radius: 20px;
+    transition: 300ms;
+}
+.card2 a:hover
+{
+    background-color: violet;
+    padding: 20px 40px;
+    color: black;
+    border-radius: 25px ;
+}
+
+.gradientcard{
+    border: 2px solid red;
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+.card3 h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+    color:purple;
+    
+}
+.card3{
+    background-image: url(../image/ejN01S.jpg);
+}
+.card3 a{
+    color: rgb(224, 18, 18);
+    text-decoration: none;
+    background-color:rgb(253, 12, 200);
+    padding: 20px 15px;
+    display: inline-block;
+    border-radius: 20px;
+    transition: 300ms;
+}
+.card3 a:hover
+{
+    background-color: rgb(14, 157, 240);
+    padding: 20px 40px;
+    color: black;
+    border-radius: 25px ;
+}
+.card4 h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+    color:rgb(225, 225, 16);
+    
+}
+.card4{
+    background-color: aqua;
+    background-image: none;
+    border-radius:0;
+}
+.card4 a{
+    color: green;
+    text-decoration: none;
+    background-color:white;
+    padding: 20px 15px;
+    display: inline-block;
+    transition: 300ms;
+    border-radius:0;
+}
+.card4 a:hover
+{
+    background-color:rosybrown;
+    padding: 15px 50px;
+    border-radius: 0;
+}
+.card5 h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 0;
+    color:#191970;
+}
+.card5 p{
+    color: #f4bbff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card5{
+    margin: 50px 0 0 auto;
+}
+.card5 a{
+    color: #00ced1;
+    text-decoration: none;
+    background-color:#adff2f;
+    padding: 20px 15px;
+    display: inline-block;
+    border-radius: 20px;
+    transition: 300ms;
+}
+.card5 a:hover
+{
+    background-color: #f0e68c;
+    padding: 20px 40px;
+    color: black;
+    border-radius: 25px ;
+}
+
+#gradientcard5{
+    background: #f953c6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.card6{
+    background-image: url(../image/photography.jpg);
+   /* padding: 40px 25px ;*/
+}
+.card6 h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 20px 0;
+    color:#530217;
+}
+.card6 p{
+    color:#f8ee46 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.card6 a{
+    color: #00ced1;
+    text-decoration: none;
+    background-color: #f9b66c;
+    padding: 20px 15px;
+    display: inline-block;
+    border-radius:0;
+    transition: 300ms;
+}
+.card6 a:hover
+{
+    background-color: #f9b66c;
+    padding: 20px 40px;
+    color: black;
+    border-radius:0;
+}
+#divimageone{
+    width: 200px;
+    height:200px;
+    padding: none;
+}
+.card7 h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+    color:rgb(225, 225, 16);
+    
+}
+.card7{
+    background-color: aliceblue;
+    background-image: none;
+    border-radius:0;
+}
+.card7 a{
+    color: green;
+    text-decoration: none;
+    background-color:white;
+    padding: 20px 15px;
+    display: inline-block;
+    transition: 300ms;
+    border-radius:0;
+}
+.card7 a:hover
+{
+    background-color:rosybrown;
+    padding: 15px 50px;
+    border-radius: 0;
+}
+.divimagetwo{
+    width: 400px;
+    height:auto;
+    padding: none;
+}
+.card8 h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+    color:rgb(225, 225, 16);
+    
+}
+
+.card8{
+    background-color: aqua;
+    background-image:url(../image/photography.jpg);
+    border-radius:0;
+}
+.card8 a{
+    color: green;
+    text-decoration: none;
+    background-color:white;
+    padding: 20px 15px;
+    display: inline-block;
+    transition: 300ms;
+    border-radius:0;
+}
+.card8 a:hover
+{
+    background-color:rosybrown;
+    padding: 15px 50px;
+    border-radius: 0;
+}
+#divimagethree{
+
+    width: 100%;
+    height:200px;
+    border-radius: 50%;
+    padding:none;
+}
+
+.card9 h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+    color:black;
+}
+.card9 p{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card9{
+    margin: 50px 0 0 auto;
+    border: 3px solid black;
+    border-color: black;
+    border-radius: 50%;
+    background-color: beige;
+    background-image: none;
+}
+
+
+.card9 a{
+    color: rgb(77, 18, 224);
+    text-decoration: none;
+    background-color:peachpuff;
+    padding: 20px 15px;
+    display: inline-block;
+    border-radius: 20px;
+    transition: 300ms;
+}
+.card9 a:hover
+{
+    background-color: violet;
+    padding: 20px 40px;
+    color: black;
+    border-radius: 25px ;
+}
+.card10 h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+    color:azure;
+}
+.card10 p{
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card10{
+    margin: 50px 0 0 auto;
+    background-image: url(../image/OIP\ \(1\).jpg);
+}
+.card10 a{
+    color: rgb(77, 18, 224);
+    text-decoration: none;
+    background-color:peachpuff;
+    padding: 20px 15px;
+    display: inline-block;
+    border-radius: 20px;
+    transition: 300ms;
+}
+.card10 a:hover
+{
+    background-color: violet;
+    padding: 20px 40px;
+    color: black;
+    border-radius: 25px ;
+}
+
+
